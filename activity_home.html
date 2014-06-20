@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, target-densitydpi=medium-dpi, user-scalable=0" />
+<title>Medicina_Forense</title>
+<link rel="stylesheet" href="themes/final_v2.min.css" />
+<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="themes/final_v2.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.2.min.css" />
+	<link rel="stylesheet" href="css/mystyle.css" />
+	<script src="js/jquery-1.10.1.min.js"></script>
+	<script src="js/jquery.mobile-1.4.2.min.js"></script>
+	<script type="text/javascript" src="js/scriptsApp.js"></script>
+	
+
+</head>
+<body>
+	<!--Contenedor principal de la página (ocupa toda la página) y posee una únicaa columna-->
+	<div data-role="page" id="activity_home" data-theme="a">
+		<!--Contenedor embebido en el contenedor principal de la página (ocupa la parte superior de la página)-->
+		<div id="contentabove">
+			<div id="imagecenter">
+			<!--Logo "asomef" centrado en el contenedor superior de la página, adapatble al tamaño de la ventana (mirar directorio "/css/positioning.css")-->
+			<figure>
+				<img class="centerh" src="img/drawable/asomef.png" alt="asomef_logo"/>
+			</figure>
+			</div>
+		</div>
+		<!--Contenedor embebido en el contenedor principal de la página (ocupa la parte media de la página)-->
+		<div id="contentmiddle">
+			<!--Logo "medicina legal" centrado en el cuadrante izquierdo del contenedor medio de la página, adapatble al tamañe la ventana (mirar directorio "/css/positioning.css")-->
+			<figure>
+			<img class="leftc" src="img/drawable/medicina_legal.png" alt="medicinalegal_logo"/>
+			</figure>
+			<!--Logo "U. Sabana" centrado en el cuadrante derecho del contenedor medio de la página, adapatble al tamaño de la ventana (mirar directorio "/css/positioning.css")-->
+			<figure>
+			<img class="rightc" src="img/drawable/la_sabana.png" alt="lasabana_logo"/>
+			</figure>
+		</div>
+		<!--Contenedor embebido en el contenedor principal de la página (ocupa la parte inferior de la página)-->
+		<div id="contentbottom">
+			<!--Botón para dirigirse al siguiente menú (revisar archivo "scriptsApp.js" ubicado en la carpeta "js") -->
+			<button class="ui-btn ui-btn-b ui-shadow ui-corner-all btn_inicio" onclick="goMenu()">Iniciar</button>
+		</div>
+	</div>
+</body></html>

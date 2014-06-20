@@ -1,0 +1,85 @@
+/**---------------------------------------------------- HOJA DE MANEJO DE POSICIONAMIENTO DE IMAGENES Y OTROS ELEMENTOS ---------------------------------------------------- **/
+
+
+p.paragraph1 {
+	color:#FFFFFF;
+    font-size: 18px;
+}
+.paragraph2 {
+	color:#FFFFFF;
+    font-size: 15px;
+ }
+/**PROPIEDAD DEL "TEXTO HEADER"**/
+.header{
+	font-size:30px;
+	text-align:center;
+    vertical-align:middle; 
+}
+
+/**PROPIEDAD DEL IMAGEN CENTRADA HORIZONTALMENTE Y QUE OCUPE TODO EL ESPACIO VERTICALMENTE**/
+img.centerh{
+	position:absolute;
+	display:block;
+	top:0%;
+	bottom:0%;
+	left:0%;
+	right:0%;
+	max-height:100%; 
+	max-width:100%;		/**original 100**/
+}
+
+/**PROPIEDAD DEL IMAGEN CENTRADA VERTICALMENTE Y QUE OCUPE TODO EL ESPACIO HORIZONTALMENTE**/
+img.centerv{
+	position:absolute;
+	top:33%;
+	left:33%;
+	height:33%; 
+	width:100%;
+}
+
+/**PROPIEDAD DEL IMAGEN CENTRADA HORIZONTALMENTE Y VERTICALMENTE**/
+img.centermid{
+	position:absolute;
+	top:33%;
+	left:33%;
+	height:33%; 
+	width:33%;
+}
+
+/**PROPIEDAD DEL IMAGEN ALINEADA A LA IZQUIERDA Y QUE OCUPE TODO EL ESPACIO VERTICALMENTE**/
+img.left{
+	position:absolute;
+	top:0%;
+	left:0%;
+	height:100%; 
+	width:50%;
+}
+
+/**PROPIEDAD DEL IMAGEN ALINEADA A LA IZQUIERDA Y QUE OCUPE TODO EL ESPACIO VERTICALMENTE**/
+img.left{
+	position:absolute;
+	top:0%;
+	left:0%;
+	height:100%; 
+	width:50%; 
+}
+
+/**PROPIEDAD DEL IMAGEN ALINEADA EN EL CUADRANTE IZQUIERDO Y QUE SE ENCUENTRE CENTRADA EN EL CUADRANTE**/
+img.leftc{
+	position:absolute;
+	display:block;
+	top:0%;
+	left:5%;
+	max-height:100%; 
+	max-width:40%; 		/**original 40**/
+}
+
+/**PROPIEDAD DEL IMAGEN ALINEADA EN EL CUADRANTE DERECHO Y QUE SE ENCUENTRE CENTRADA EN EL CUADRANTE**/
+img.rightc{
+	position:absolute;
+	display:block;
+	top:0%;
+	left:55%;
+	max-height:100%; 
+	max-width:40%;		/**original 40**/
+}

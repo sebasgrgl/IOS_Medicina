@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html><head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, target-densitydpi=medium-dpi, user-scalable=0" />
+<title>Principal</title>
+<link rel="stylesheet" href="../themes/final_v2.min.css" />
+<link rel="stylesheet" href="../themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="../themes/final_v2.css" />
+	<link rel="stylesheet" href="../themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="../css/jquery.mobile.structure-1.4.2.min.css" />
+	<link rel="stylesheet" href="../css/mystyle.css" />
+	<script src="../js/jquery-1.10.1.min.js"></script>
+	<script src="../js/jquery.mobile-1.4.2.min.js"></script>
+	<script type="text/javascript" src="../js/scriptsApp.js"></script>
+</head>
+<body>
+	<div data-role="page" id="activity_finish_checklist3acs" data-theme="a">
+	<!--ÉSTA PÁGINA SE DIVIDE EN DOS SECCIONES-->
+		<div data-role="header" style="background:#233767">
+			<button class="ui-nodisc-icon ui-btn ui-btn-inline ui-icon-carat-l ui-btn-icon-left ui-btn-a" style="background:#233767; border:none;" onclick="backafc3acs()">Atrás</button>
+			<h1>Felicidades</h1>
+			<!--<button class="ui-nodisc-icon ui-btn ui-btn-inline ui-btn-icon-right ui-icon-home" style="background:#233767; border:none;" onclick="home()">Home</button>-->
+			<a href="#popupDialog" data-rel="popup" data-position-to="window" data-transition="pop" class="button ui-nodisc-icon ui-btn ui-btn-inline ui-btn-icon-right ui-icon-home" style="background:#233767; border:none;">Home</a>
+		</div>
+		<div data-role="content">
+			<h2 style="text-align: center; white-space: normal;">Ha finalizado correctamente esta actividad</h2>
+			<h3 style="text-align: center; white-space: normal;">¿Qué desea hacer?</h3>
+			<br>
+			<!--Botón para ingresar al menú de "Autopsia"-->
+			<button class="ui-btn ui-btn-b ui-shadow ui-corner-all" onclick="goPhoresicChecklist()"><strong>Iniciar Nueva Autopsia</strong></button>
+			<!--Botón para ingresar al menú principal-->
+			<button class="ui-btn ui-btn-b ui-shadow ui-corner-all" onclick="goMenu1()"><strong>Volver al menu principal</strong></button>
+		
+	</div>
+</body></html>

@@ -1,0 +1,196 @@
+/**---------------------------------------------------- HOJA DE ESTILO CON IMAGEN DE FONDO AJUSTABLE Y DIVISIÓN DE HASTA TRES COLUMNAS ---------------------------------------------------- **/
+
+/**HEADERS**/
+@import url(../css/positioning.css);		/**Llamando al archivo "positioning.css" en cual contiene las clases  para posicionamiento de imagenes**/
+
+/**PROPIEDAD DE NÚMERO DE COLUMNAS EN DIV**/
+section.one{
+	-webkit-column-count:1; /** Chrome, Safari, Opera **/
+	-moz-column-count:1; /** Firefox **/
+	column-count:1;
+}
+
+section.two{
+	-webkit-column-count:2; /** Chrome, Safari, Opera **/
+	-moz-column-count:2; /** Firefox **/
+	column-count:2;
+}
+
+section.three{
+	-webkit-column-count:3; /** Chrome, Safari, Opera **/
+	-moz-column-count:3; /** Firefox **/
+	column-count:3;
+}    
+
+/**PROPIEDAD DE SECCIÓN "DIV" USANDO COMO HEADER**/
+#contentheader{
+	position:absolute; left:25%; top:0%; height:15%; width:50%; z-index:1;
+}
+
+#contentcheckbox{
+	-webkit-column-count:1; /** Chrome, Safari, Opera **/
+	-moz-column-count:1; /** Firefox **/
+	column-count:1;
+	position:absolute; left:5%; top:15%; height:60%; width:90%; z-index:1; 
+}
+
+/**PROPIEDAD DE SECCIÓN "DIV" UBICADO EN FILA 1 DE 3**/
+#contentabove{
+	position:absolute; left:0%; top:0%; height:33%; width:100%; z-index:1;
+}
+
+#imagecenter{
+	position:absolute; left:33.5%; top:15%; height:100%; width:33%;
+}
+
+/**PROPIEDAD DE SECCIÓN "DIV" UBICADO EN FILA 2 DE 3**/
+#contentmiddle{
+	position:absolute; left:0%; top:33%; height:33%; width:100%; z-index:1;
+}
+
+/**PROPIEDAD DE SECCIÓN "DIV" UBICADO EN FILA 3 DE 3**/
+#contentbottom{
+	position:absolute; left:0%; top:66%; height:34%; width:100%; z-index:1;
+}
+
+/**PROPIEDAD DE SECCIÓN "DIV" UBICADO EN FILA 1 DE 2**/
+#contentup{
+	position:absolute; left:0%; top:0%; height:50%; width:100%; z-index:1;
+}
+
+/**PROPIEDAD DE SECCIÓN "DIV" UBICADO EN FILA 2 DE 2**/
+#contentdown{
+	position:absolute; left:0%; top:50%; height:50%; width:100%; z-index:1;
+}
+/**PROPIEDAD DE BOTÓN "INICIAR" CON TEXTO CENTRADO Y MOTIVO DETERMINADO**/
+button.btn_inicio{
+	position:relative;
+	top:33%;
+	left:33%;
+	height:25%; 
+	width:33%;
+}
+
+/**>>>>>>>>>> PANTALLA 2 DE SELECCIÓN DE ELEMENTO >>>>>>>>>>**/
+
+/**PROPIEDAD DE BOTÓN "CLINICA FORENSE" CON TEXTO CENTRADO Y MOTIVO DETERMINADO**/
+button.btn_checklists{
+	background-image:url(../img/drawable/forensic.png); 
+	background-repeat: no-repeat; 
+	background-position: 7% 50%; 
+	height:80px;
+}
+
+/**PROPIEDAD DE BOTÓN "AUTOPSIA" CON TEXTO CENTRADO Y MOTIVO DETERMINADO**/
+button.btn_phorensic{
+	background-image:url(../img/drawable/autopsy.png); 
+	background-repeat: no-repeat; 
+	background-position: 7% 50%; 
+	height:80px;
+}
+
+/**>>>>>>>>>> PANTALLA DE "CLÍNICA FORENSE" >>>>>>>>>>**/	
+
+/**PROPIEDAD DE BOTÓN "Lesiones Personales" CON TEXTO CENTRADO Y MOTIVO DETERMINADO**/
+button.btn_personalinj{
+	background-image:url(../img/drawable/hit.png); 
+	background-repeat: no-repeat; 
+	background-position: 93% 50%; 
+	height:80px;
+}
+
+/**PROPIEDAD DE BOTÓN "Delito Sexual" CON TEXTO CENTRADO Y MOTIVO DETERMINADO**/
+button.btn_sexual{
+	background-image:url(../img/drawable/gender.png); 
+	background-repeat: no-repeat; 
+	background-position: 93% 50%; 
+	height:80px;
+}
+
+/**PROPIEDAD DE BOTÓN "Edad Clínica" CON TEXTO CENTRADO Y MOTIVO DETERMINADO**/
+button.btn_clinicage{
+	background-image:url(../img/drawable/family.png); 
+	background-repeat: no-repeat; 
+	background-position: 93% 50%; 
+	height:80px;
+}
+
+/**PROPIEDAD DE BOTÓN "Embriaguez" CON TEXTO CENTRADO Y MOTIVO DETERMINADO**/
+button.btn_drunk{
+	background-image:url(../img/drawable/drink.png); 
+	background-repeat: no-repeat; 
+	background-position: 93% 50%; 
+	height:80px;
+}
+
+/**>>>>>>>>>> PANTALLA DE "AUTOPSIAS" >>>>>>>>>>**/	
+
+/**PROPIEDAD DE BOTÓN "Arma de fuego" CON TEXTO CENTRADO Y MOTIVO DETERMINADO**/
+button.btn_gun{
+	background-image:url(../img/drawable/gun.png); 
+	background-repeat: no-repeat; 
+	background-position: 7% 50%; 
+	height:80px;
+}
+
+/**PROPIEDAD DE BOTÓN "Arma blanca" CON TEXTO CENTRADO Y MOTIVO DETERMINADO**/
+button.btn_knife{
+background-image:url(../img/drawable/knife.png); 
+	background-repeat: no-repeat; 
+	background-position: 7% 50%; 
+	height:80px;
+}
+
+/**PROPIEDAD DE BOTÓN "muerte adulto" CON TEXTO CENTRADO Y MOTIVO DETERMINADO**/
+button.btn_adult{
+	background-image:url(../img/drawable/adult.png); 
+	background-repeat: no-repeat; 
+	background-position: 7% 50%; 
+	height:80px;
+}
+
+/**PROPIEDAD DE BOTÓN "muerte niño" CON TEXTO CENTRADO Y MOTIVO DETERMINADO**/
+button.btn_child{
+	background-image:url(../img/drawable/child.png); 
+	background-repeat: no-repeat; 
+	background-position: 7% 50%; 
+	height:80px;
+}
+
+/**PROPIEDAD DE BOTÓN "Accidente de transito" CON TEXTO CENTRADO Y MOTIVO DETERMINADO**/
+button.btn_crash{
+	background-image:url(../img/drawable/crash.png); 
+	background-repeat: no-repeat; 
+	background-position: 7% 50%; 
+	height:80px;
+}
+/**PROPIEDAD DE BOTÓN "Asfixia" CON TEXTO CENTRADO Y MOTIVO DETERMINADO**/
+button.btn_asphyxia{
+	background-image:url(../img/drawable/asphyxia.png); 
+	background-repeat: no-repeat; 
+	background-position: 7% 50%; 
+	height:80px;
+}
+/**PROPIEDAD DE BOTÓN "Quemadura" CON TEXTO CENTRADO Y MOTIVO DETERMINADO**/
+button.btn_burn{
+	background-image:url(../img/drawable/fire.png); 
+	background-repeat: no-repeat; 
+	background-position: 7% 50%; 
+	height:80px;
+}
+
+/**>>>>>>>>>> PANTALLA DE "Lesiones personales - Cl�nica Forense" >>>>>>>>>>**/	
+
+button.btn_personalnext{
+	position:relative;
+	left:33%;
+	height:10%; 
+	width:33%;
+}
+
+button.btn_personalfinish{
+	position:relative;
+	left:33%;
+	height:10%; 
+	width:33%;
+}

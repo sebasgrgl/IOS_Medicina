@@ -1,0 +1,51 @@
+﻿<!DOCTYPE HTML>
+<html><head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, target-densitydpi=medium-dpi, user-scalable=0" />
+<title>Principal</title>
+<link rel="stylesheet" href="../themes/final_v2.min.css" />
+<link rel="stylesheet" href="../themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="../themes/final_v2.css" />
+	<link rel="stylesheet" href="../themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="../css/jquery.mobile.structure-1.4.2.min.css" />
+	<link rel="stylesheet" href="../css/mystyle.css" />
+	<script src="../js/jquery-1.10.1.min.js"></script>
+	<script src="../js/jquery.mobile-1.4.2.min.js"></script>
+	<script type="text/javascript" src="../js/scriptsApp.js"></script>
+</head>
+<body>
+	<div data-role="page" id="activity_gun_fire4" data-theme="a">
+		<!--En la primera secciÃ³n se encontrarÃ¡n los botones y el header que darÃ¡ alguna clase de informaciÃ³n-->
+		<div data-role="header" style="background:#233767">
+			<button class="ui-nodisc-icon ui-btn ui-btn-inline ui-icon-carat-l ui-btn-icon-left ui-btn-a" style="background:#233767; border:none;" onclick="backagf4()">Atrás</button>
+			<h1>Toma de Muestras</h1>
+			<!--<button class="ui-nodisc-icon ui-btn ui-btn-inline ui-btn-icon-right ui-icon-home" style="background:#233767; border:none;" onclick="home()">Home</button>-->
+			<a href="#popupDialog" data-rel="popup" data-position-to="window" data-transition="pop" class="button ui-nodisc-icon ui-btn ui-btn-inline ui-btn-icon-right ui-icon-home" style="background:#233767; border:none;">Home</a>
+		</div>
+		<div data-role="content">
+			<h3 style="text-align: center; white-space: normal;">Durante la autopsia - Muestras</h3>
+			<form>
+				<fieldset data-role="controlgroup" data-theme="c">
+					<input type="checkbox" id="myCheck1"><label style="font-size:13px" for="myCheck1"> En carga múltiple recupere la mayor cantidad de perdigones o postas y el pistón de potencia.</label>
+				</fieldset>
+			</form>
+			<button class="ui-btn ui-btn-b ui-shadow ui-corner-all btn_personalnext" onclick="goGunFire5()"><strong>Siguiente</strong></button>
+		</div>
+		<!--*********************************INICIO DE SECCIÓN POP-UP*******************************************************-->
+		<div data-role="popup" id="popupDialog" data-overlay-theme="b" data-theme="b" data-dismissible="false" style="max-width:400px;">
+			<div data-role="header" data-theme="a">
+				<h1>¿Desea Salir?</h1>
+			</div>
+			<div role="main" class="ui-content">
+				<h3 class="ui-title">¿Esta seguro que desea regresar al menú principal?</h3>
+				<p>Perderá todo lo realizado hasta el momento</p>
+				<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back">Declinar</a>
+				<button class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow" onclick="home()">Confirmar</button>
+			</div>
+		</div>
+		<!--*********************************INICIO DE SECCIÓN POP-UP DE NO OPRIMIR NADA*******************************************************-->
+		<div data-role="popup" id="myPopupDiv" class="ui-content" data-overlay-theme="c" data-theme="c">
+			<p>Debe completar todos los items para continuar a la siguiente actividad</p>
+		</div>
+	</div>
+</body></html>
