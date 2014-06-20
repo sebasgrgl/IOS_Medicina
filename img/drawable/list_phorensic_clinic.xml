@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Defining styles for the background of sign in buttons (First Activity) -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true"><shape>
+            <solid android:color="@color/blue_border_app" />
+
+            <stroke android:width="1sp" android:color="@color/blue_app" />
+
+            <corners android:radius="6sp" />
+
+            <padding android:bottom="10sp" android:left="24sp" android:right="24sp" android:top="10sp" />
+        </shape></item>
+    <item><shape>
+            <solid android:color="@color/blue_app" />
+
+            <stroke android:width="1sp" android:color="@color/blue_border_app" />
+
+            <corners android:radius="6sp" />
+
+            <padding android:bottom="10sp" android:left="24sp" android:right="24sp" android:top="10sp" />
+        </shape></item>
+
+</selector>
